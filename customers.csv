@@ -1,0 +1,801 @@
+CustomerID,Age,Gender,Country,City,SignupDate,Churned,ChurnDefinition,SnapshotDate
+C00001,37,Female,India,Hyderabad,2023-06-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00002,42,Male,United Kingdom,Manchester,2023-09-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00003,44,Male,United Kingdom,Manchester,2023-10-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00004,51,Female,India,Chennai,2023-05-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00005,56,Male,India,Hyderabad,2023-02-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00006,60,Other,United Kingdom,Leeds,2023-03-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00007,46,Male,United Kingdom,Manchester,2023-05-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00008,62,Female,India,Hyderabad,2023-05-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00009,49,Male,India,Pune,2023-07-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00010,35,Male,India,Pune,2023-07-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00011,39,Female,India,Pune,2023-12-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00012,56,Male,India,Pune,2023-07-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00013,43,Female,India,Pune,2023-08-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00014,49,Female,United Kingdom,Manchester,2023-02-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00015,52,Female,India,Chennai,2023-02-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00016,64,Female,United States,New York,2023-05-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00017,47,Male,India,Bengaluru,2023-07-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00018,45,Female,India,Pune,2023-06-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00019,58,Male,Canada,Vancouver,2023-06-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00020,55,Male,United Kingdom,Leeds,2023-12-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00021,37,Female,India,Mumbai,2023-12-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00022,46,Female,United States,Austin,2023-12-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00023,70,Male,India,Mumbai,2023-09-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00024,25,Prefer not to say,India,Mumbai,2023-01-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00025,21,Female,United Kingdom,London,2023-12-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00026,30,Male,India,Bengaluru,2023-05-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00027,66,Male,India,Pune,2023-11-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00028,38,Female,India,Mumbai,2023-01-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00029,40,Female,India,Mumbai,2023-05-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00030,67,Female,India,Bengaluru,2023-05-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00031,30,Male,Australia,Melbourne,2023-08-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00032,39,Female,India,Bengaluru,2023-02-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00033,35,Female,India,Chennai,2023-03-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00034,18,Female,Australia,Sydney,2023-11-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00035,42,Male,Australia,Sydney,2023-07-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00036,67,Female,United States,Austin,2023-11-11,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00037,63,Male,India,Hyderabad,2023-09-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00038,70,Female,India,Hyderabad,2023-01-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00039,33,Male,India,Chennai,2023-09-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00040,49,Male,United States,New York,2023-04-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00041,68,Male,Canada,Toronto,2023-12-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00042,37,Female,United Kingdom,London,2023-06-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00043,33,Female,India,Pune,2023-09-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00044,23,Female,India,Mumbai,2023-06-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00045,33,Male,India,Bengaluru,2023-08-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00046,53,Other,India,Bengaluru,2023-11-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00047,63,Male,India,Chennai,2023-06-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00048,45,Male,India,Chennai,2023-07-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00049,70,Female,Australia,Melbourne,2023-03-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00050,55,Female,India,Bengaluru,2023-11-11,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00051,38,Other,India,Pune,2023-07-08,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00052,30,Female,United States,Austin,2023-09-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00053,38,Male,India,Chennai,2023-03-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00054,37,Male,India,Bengaluru,2023-05-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00055,52,Female,United Kingdom,Leeds,2023-11-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00056,66,Female,India,Bengaluru,2023-11-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00057,24,Female,India,Hyderabad,2023-03-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00058,41,Male,Canada,Vancouver,2023-12-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00059,60,Male,Canada,Toronto,2023-04-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00060,43,Female,India,Pune,2023-01-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00061,45,Male,India,Chennai,2023-10-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00062,41,Female,United States,Austin,2023-11-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00063,46,Female,United States,New York,2023-09-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00064,35,Male,Australia,Melbourne,2023-03-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00065,41,Female,India,Pune,2023-06-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00066,68,Male,India,Pune,2023-09-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00067,63,Male,India,Bengaluru,2023-10-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00068,33,Female,India,Hyderabad,2023-09-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00069,59,Other,United Kingdom,Leeds,2023-12-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00070,56,Prefer not to say,Australia,Melbourne,2023-07-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00071,29,Female,Canada,Toronto,2023-09-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00072,69,Female,India,Bengaluru,2023-05-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00073,21,Male,United States,Chicago,2023-10-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00074,61,Prefer not to say,India,Mumbai,2023-01-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00075,35,Female,United Kingdom,Manchester,2023-09-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00076,64,Female,India,Pune,2023-07-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00077,38,Male,India,Mumbai,2023-12-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00078,45,Female,United States,New York,2023-11-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00079,45,Male,India,Pune,2023-08-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00080,40,Male,United Kingdom,London,2023-07-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00081,63,Female,United States,New York,2023-04-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00082,25,Female,India,Mumbai,2023-04-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00083,42,Male,United States,New York,2023-11-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00084,43,Female,India,Hyderabad,2023-12-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00085,58,Male,United States,Chicago,2023-11-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00086,51,Male,India,Chennai,2023-10-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00087,28,Other,India,Hyderabad,2023-05-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00088,25,Male,India,Bengaluru,2023-12-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00089,41,Female,India,Hyderabad,2023-02-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00090,56,Female,India,Mumbai,2023-03-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00091,33,Male,India,Hyderabad,2023-03-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00092,27,Male,Australia,Sydney,2023-06-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00093,43,Male,United States,Chicago,2023-01-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00094,42,Female,Canada,Toronto,2023-05-09,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00095,28,Female,India,Hyderabad,2023-07-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00096,68,Male,India,Hyderabad,2023-03-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00097,60,Male,Australia,Melbourne,2023-11-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00098,30,Male,India,Hyderabad,2023-03-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00099,62,Female,India,Mumbai,2023-02-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00100,70,Male,United Kingdom,Leeds,2023-07-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00101,54,Female,United Kingdom,Leeds,2023-05-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00102,34,Male,India,Chennai,2023-12-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00103,56,Female,India,Mumbai,2023-08-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00104,61,Female,United Kingdom,Leeds,2023-04-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00105,18,Female,Canada,Toronto,2023-08-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00106,21,Female,United States,Chicago,2023-06-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00107,20,Male,India,Bengaluru,2023-12-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00108,54,Male,India,Bengaluru,2023-03-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00109,58,Female,United States,Austin,2023-01-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00110,61,Male,United Kingdom,Leeds,2023-01-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00111,59,Female,India,Mumbai,2023-12-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00112,30,Male,India,Bengaluru,2023-07-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00113,59,Female,United Kingdom,Leeds,2023-11-08,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00114,54,Male,India,Mumbai,2023-12-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00115,64,Prefer not to say,India,Hyderabad,2023-07-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00116,21,Female,India,Pune,2023-03-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00117,19,Female,United Kingdom,Leeds,2023-02-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00118,60,Male,Canada,Toronto,2023-04-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00119,43,Male,United Kingdom,London,2023-11-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00120,25,Other,India,Mumbai,2023-11-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00121,41,Male,India,Mumbai,2023-08-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00122,41,Female,India,Hyderabad,2023-04-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00123,33,Prefer not to say,India,Hyderabad,2023-10-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00124,48,Male,India,Mumbai,2023-08-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00125,26,Male,United States,New York,2023-08-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00126,30,Female,India,Bengaluru,2023-04-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00127,31,Prefer not to say,India,Hyderabad,2023-01-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00128,39,Male,United States,Austin,2023-09-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00129,69,Male,India,Pune,2023-05-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00130,22,Female,India,Hyderabad,2023-03-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00131,58,Male,Australia,Melbourne,2023-11-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00132,30,Prefer not to say,Canada,Toronto,2023-03-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00133,60,Prefer not to say,India,Mumbai,2023-10-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00134,26,Male,United Kingdom,Manchester,2023-07-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00135,25,Female,United Kingdom,Manchester,2023-09-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00136,54,Male,India,Bengaluru,2023-06-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00137,47,Male,India,Hyderabad,2023-09-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00138,25,Female,Australia,Sydney,2023-01-08,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00139,61,Female,India,Hyderabad,2023-11-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00140,52,Female,India,Chennai,2023-05-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00141,51,Female,India,Pune,2023-12-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00142,70,Prefer not to say,Australia,Sydney,2023-07-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00143,20,Male,United Kingdom,London,2023-08-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00144,36,Female,India,Chennai,2023-04-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00145,32,Female,United States,Chicago,2023-06-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00146,66,Female,India,Pune,2023-08-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00147,54,Female,India,Mumbai,2023-06-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00148,56,Male,United Kingdom,London,2023-11-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00149,34,Female,India,Hyderabad,2023-01-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00150,28,Female,United States,New York,2023-04-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00151,63,Female,India,Hyderabad,2023-07-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00152,31,Female,United States,Chicago,2023-06-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00153,46,Other,India,Pune,2023-09-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00154,45,Male,India,Chennai,2023-03-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00155,20,Female,United Kingdom,Manchester,2023-05-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00156,67,Male,India,Pune,2023-10-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00157,68,Male,India,Pune,2023-04-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00158,35,Male,India,Chennai,2023-04-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00159,23,Female,India,Hyderabad,2023-12-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00160,39,Male,United States,Austin,2023-05-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00161,36,Prefer not to say,India,Bengaluru,2023-03-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00162,53,Male,India,Mumbai,2023-11-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00163,19,Female,United States,New York,2023-03-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00164,68,Female,United Kingdom,London,2023-01-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00165,70,Female,India,Bengaluru,2023-07-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00166,40,Male,Canada,Toronto,2023-05-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00167,25,Male,India,Bengaluru,2023-09-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00168,46,Prefer not to say,India,Chennai,2023-05-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00169,20,Male,India,Mumbai,2023-12-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00170,59,Male,Canada,Toronto,2023-02-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00171,40,Female,India,Chennai,2023-08-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00172,45,Male,Australia,Melbourne,2023-06-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00173,51,Female,India,Mumbai,2023-07-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00174,55,Male,Canada,Vancouver,2023-10-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00175,63,Male,United States,New York,2023-08-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00176,30,Female,Australia,Sydney,2023-12-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00177,29,Male,United States,Austin,2023-02-09,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00178,58,Female,India,Hyderabad,2023-08-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00179,49,Female,India,Pune,2023-11-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00180,40,Female,United Kingdom,Leeds,2023-07-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00181,45,Female,India,Mumbai,2023-10-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00182,31,Male,India,Hyderabad,2023-07-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00183,69,Female,Canada,Toronto,2023-07-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00184,18,Male,India,Hyderabad,2023-04-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00185,41,Female,India,Hyderabad,2023-08-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00186,34,Male,Canada,Toronto,2023-07-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00187,41,Male,India,Mumbai,2023-02-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00188,33,Female,India,Hyderabad,2023-12-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00189,28,Male,India,Hyderabad,2023-08-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00190,31,Female,United Kingdom,London,2023-12-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00191,48,Female,India,Mumbai,2023-09-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00192,59,Female,India,Hyderabad,2023-05-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00193,49,Male,India,Bengaluru,2023-03-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00194,56,Male,India,Bengaluru,2023-06-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00195,57,Female,Australia,Melbourne,2023-03-30,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00196,20,Male,India,Bengaluru,2023-02-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00197,19,Female,India,Bengaluru,2023-12-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00198,53,Male,India,Mumbai,2023-07-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00199,36,Male,United States,Chicago,2023-11-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00200,37,Female,India,Pune,2023-12-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00201,53,Female,United Kingdom,London,2023-12-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00202,50,Male,United States,New York,2023-01-30,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00203,41,Female,United Kingdom,London,2023-05-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00204,20,Female,United States,Austin,2023-02-05,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00205,43,Male,India,Pune,2023-12-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00206,53,Male,United States,Austin,2023-07-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00207,61,Female,United Kingdom,London,2023-03-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00208,64,Male,Canada,Toronto,2023-07-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00209,62,Female,Australia,Melbourne,2023-11-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00210,55,Female,India,Bengaluru,2023-03-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00211,32,Male,India,Chennai,2023-11-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00212,23,Male,India,Chennai,2023-04-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00213,46,Male,India,Bengaluru,2023-04-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00214,68,Female,Australia,Sydney,2023-06-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00215,66,Male,India,Hyderabad,2023-12-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00216,29,Female,India,Pune,2023-05-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00217,51,Female,India,Pune,2023-02-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00218,56,Female,Australia,Sydney,2023-05-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00219,42,Female,Canada,Vancouver,2023-01-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00220,64,Female,India,Mumbai,2023-03-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00221,47,Female,India,Bengaluru,2023-06-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00222,29,Male,India,Hyderabad,2023-12-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00223,58,Female,India,Hyderabad,2023-01-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00224,61,Female,United States,New York,2023-03-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00225,30,Male,United Kingdom,London,2023-05-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00226,49,Female,India,Mumbai,2023-05-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00227,22,Male,United Kingdom,Manchester,2023-01-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00228,49,Male,India,Hyderabad,2023-09-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00229,64,Prefer not to say,India,Hyderabad,2023-08-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00230,38,Female,Australia,Melbourne,2023-03-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00231,64,Female,United Kingdom,Manchester,2023-08-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00232,66,Male,United States,New York,2023-11-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00233,57,Male,Australia,Sydney,2023-10-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00234,27,Male,India,Mumbai,2023-05-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00235,40,Male,India,Mumbai,2023-12-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00236,45,Male,India,Chennai,2023-12-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00237,64,Female,India,Bengaluru,2023-06-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00238,45,Male,India,Hyderabad,2023-05-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00239,23,Male,India,Bengaluru,2023-05-31,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00240,45,Female,United Kingdom,Manchester,2023-08-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00241,59,Male,United Kingdom,London,2023-12-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00242,41,Female,Canada,Toronto,2023-02-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00243,69,Female,India,Hyderabad,2023-11-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00244,34,Female,India,Chennai,2023-01-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00245,37,Male,United States,New York,2023-06-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00246,33,Female,United Kingdom,London,2023-06-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00247,48,Prefer not to say,India,Bengaluru,2023-03-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00248,53,Female,India,Mumbai,2023-11-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00249,64,Male,India,Bengaluru,2023-02-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00250,38,Male,United States,Austin,2023-12-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00251,58,Male,India,Mumbai,2023-10-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00252,61,Female,India,Hyderabad,2023-12-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00253,28,Female,India,Pune,2023-02-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00254,26,Female,United States,New York,2023-09-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00255,41,Prefer not to say,India,Hyderabad,2023-02-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00256,34,Male,United States,New York,2023-08-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00257,43,Male,India,Chennai,2023-04-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00258,26,Female,India,Hyderabad,2023-07-11,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00259,45,Male,India,Bengaluru,2023-07-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00260,27,Female,India,Chennai,2023-05-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00261,19,Female,Australia,Sydney,2023-06-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00262,46,Male,India,Chennai,2023-03-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00263,41,Other,United States,Chicago,2023-11-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00264,30,Male,India,Pune,2023-09-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00265,70,Male,India,Pune,2023-12-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00266,49,Prefer not to say,India,Bengaluru,2023-11-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00267,45,Female,India,Hyderabad,2023-05-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00268,53,Male,Australia,Sydney,2023-11-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00269,32,Female,Australia,Melbourne,2023-03-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00270,19,Female,Canada,Vancouver,2023-04-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00271,66,Male,United States,Chicago,2023-03-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00272,66,Male,India,Mumbai,2023-09-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00273,70,Female,United States,Chicago,2023-10-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00274,37,Female,India,Hyderabad,2023-07-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00275,68,Female,Canada,Toronto,2023-05-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00276,66,Male,United States,Chicago,2023-01-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00277,69,Male,United Kingdom,Manchester,2023-09-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00278,39,Male,India,Hyderabad,2023-09-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00279,64,Female,United Kingdom,Leeds,2023-01-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00280,52,Female,India,Bengaluru,2023-05-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00281,70,Female,India,Pune,2023-06-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00282,37,Female,United Kingdom,Manchester,2023-05-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00283,61,Female,United States,Chicago,2023-02-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00284,62,Prefer not to say,United Kingdom,Leeds,2023-07-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00285,23,Female,Australia,Melbourne,2023-05-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00286,34,Male,United States,Chicago,2023-02-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00287,49,Male,Australia,Sydney,2023-03-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00288,23,Prefer not to say,India,Hyderabad,2023-04-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00289,29,Female,United States,Austin,2023-09-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00290,28,Female,Australia,Sydney,2023-05-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00291,65,Male,United States,New York,2023-02-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00292,68,Male,India,Bengaluru,2023-10-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00293,68,Prefer not to say,India,Mumbai,2023-10-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00294,68,Female,India,Chennai,2023-10-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00295,26,Male,Australia,Sydney,2023-11-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00296,55,Female,India,Hyderabad,2023-07-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00297,33,Male,India,Bengaluru,2023-09-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00298,23,Female,United States,Chicago,2023-09-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00299,41,Female,United States,Chicago,2023-01-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00300,63,Male,United Kingdom,London,2023-10-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00301,34,Male,India,Hyderabad,2023-12-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00302,33,Male,India,Bengaluru,2023-10-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00303,31,Male,India,Bengaluru,2023-12-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00304,30,Other,India,Chennai,2023-09-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00305,60,Male,United States,New York,2023-10-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00306,18,Female,United States,New York,2023-06-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00307,53,Female,India,Mumbai,2023-01-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00308,33,Other,United Kingdom,Leeds,2023-04-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00309,58,Female,United States,New York,2023-04-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00310,20,Male,United States,Austin,2023-11-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00311,25,Female,India,Chennai,2023-06-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00312,33,Female,United States,New York,2023-11-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00313,28,Female,United States,New York,2023-07-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00314,60,Male,United Kingdom,Leeds,2023-03-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00315,22,Female,India,Mumbai,2023-07-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00316,38,Female,India,Bengaluru,2023-07-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00317,46,Male,India,Hyderabad,2023-12-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00318,43,Female,United States,New York,2023-07-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00319,24,Male,India,Pune,2023-05-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00320,21,Female,United Kingdom,London,2023-11-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00321,22,Male,United Kingdom,Leeds,2023-07-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00322,53,Female,India,Bengaluru,2023-01-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00323,49,Female,India,Hyderabad,2023-03-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00324,26,Male,United Kingdom,Leeds,2023-10-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00325,70,Female,India,Bengaluru,2023-09-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00326,70,Male,United Kingdom,London,2023-07-31,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00327,50,Prefer not to say,India,Bengaluru,2023-05-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00328,38,Male,India,Hyderabad,2023-10-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00329,38,Prefer not to say,India,Chennai,2023-06-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00330,56,Male,India,Hyderabad,2023-12-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00331,48,Other,India,Pune,2023-06-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00332,55,Male,India,Chennai,2023-08-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00333,45,Female,United States,Austin,2023-05-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00334,31,Female,United States,New York,2023-07-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00335,32,Female,United States,Austin,2023-07-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00336,49,Female,India,Mumbai,2023-03-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00337,47,Female,United States,Austin,2023-12-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00338,31,Female,United States,Austin,2023-07-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00339,23,Female,India,Bengaluru,2023-09-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00340,29,Female,United States,Chicago,2023-01-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00341,19,Male,United States,Chicago,2023-03-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00342,46,Female,Australia,Sydney,2023-05-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00343,50,Prefer not to say,India,Chennai,2023-02-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00344,19,Female,Australia,Sydney,2023-06-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00345,57,Male,India,Hyderabad,2023-03-31,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00346,42,Female,India,Hyderabad,2023-10-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00347,53,Female,India,Pune,2023-11-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00348,21,Female,India,Mumbai,2023-07-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00349,36,Female,Australia,Melbourne,2023-03-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00350,61,Female,United Kingdom,Leeds,2023-03-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00351,61,Male,Canada,Toronto,2023-01-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00352,59,Male,India,Chennai,2023-05-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00353,57,Male,India,Hyderabad,2023-01-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00354,54,Male,India,Chennai,2023-03-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00355,21,Female,United States,Chicago,2023-02-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00356,27,Male,India,Hyderabad,2023-01-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00357,29,Other,India,Chennai,2023-03-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00358,29,Male,India,Pune,2023-07-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00359,51,Male,Canada,Toronto,2023-10-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00360,51,Male,India,Bengaluru,2023-11-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00361,34,Female,United States,Chicago,2023-01-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00362,20,Male,India,Bengaluru,2023-12-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00363,43,Male,United States,Chicago,2023-01-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00364,53,Male,United States,Austin,2023-06-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00365,23,Female,India,Hyderabad,2023-06-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00366,57,Female,United States,New York,2023-10-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00367,45,Female,India,Bengaluru,2023-01-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00368,54,Male,India,Mumbai,2023-02-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00369,55,Female,United Kingdom,Manchester,2023-02-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00370,40,Female,United Kingdom,Manchester,2023-10-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00371,37,Male,United States,New York,2023-05-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00372,61,Male,India,Bengaluru,2023-11-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00373,66,Female,United States,Chicago,2023-09-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00374,67,Male,India,Pune,2023-07-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00375,39,Female,United Kingdom,London,2023-10-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00376,58,Female,India,Pune,2023-03-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00377,50,Female,India,Pune,2023-10-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00378,44,Female,United States,New York,2023-01-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00379,60,Male,India,Pune,2023-03-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00380,64,Female,India,Bengaluru,2023-09-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00381,69,Male,United Kingdom,Leeds,2023-06-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00382,70,Male,India,Bengaluru,2023-05-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00383,66,Male,India,Chennai,2023-10-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00384,31,Male,Australia,Melbourne,2023-09-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00385,45,Female,Australia,Melbourne,2023-05-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00386,69,Female,India,Chennai,2023-12-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00387,23,Female,India,Pune,2023-09-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00388,28,Prefer not to say,India,Hyderabad,2023-09-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00389,64,Male,India,Pune,2023-10-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00390,66,Prefer not to say,United Kingdom,Leeds,2023-12-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00391,25,Male,India,Mumbai,2023-04-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00392,67,Male,India,Pune,2023-03-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00393,60,Male,India,Pune,2023-03-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00394,36,Other,United States,New York,2023-06-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00395,37,Female,Canada,Toronto,2023-05-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00396,70,Male,United States,Austin,2023-07-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00397,44,Female,Australia,Sydney,2023-04-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00398,36,Female,India,Mumbai,2023-09-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00399,61,Female,United States,Austin,2023-03-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00400,49,Male,United Kingdom,London,2023-01-21,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00401,52,Female,United States,Chicago,2023-04-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00402,56,Female,United States,New York,2023-09-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00403,34,Male,India,Hyderabad,2023-06-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00404,29,Female,India,Mumbai,2023-03-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00405,40,Female,Australia,Sydney,2023-08-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00406,53,Female,United States,Austin,2023-03-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00407,67,Female,United Kingdom,Manchester,2023-02-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00408,64,Female,United States,New York,2023-06-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00409,54,Female,India,Pune,2023-06-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00410,19,Female,Canada,Toronto,2023-10-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00411,25,Male,Canada,Toronto,2023-11-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00412,43,Female,United States,Austin,2023-02-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00413,43,Male,India,Mumbai,2023-05-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00414,70,Female,United States,New York,2023-01-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00415,59,Male,United States,New York,2023-03-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00416,57,Female,India,Pune,2023-01-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00417,36,Male,India,Hyderabad,2023-09-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00418,36,Female,India,Mumbai,2023-06-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00419,32,Male,Canada,Vancouver,2023-11-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00420,20,Male,United Kingdom,Leeds,2023-10-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00421,62,Female,United Kingdom,Manchester,2023-12-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00422,38,Female,United Kingdom,Manchester,2023-02-21,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00423,61,Female,India,Mumbai,2023-10-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00424,67,Female,United Kingdom,Manchester,2023-03-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00425,67,Male,India,Bengaluru,2023-12-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00426,70,Female,India,Pune,2023-06-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00427,23,Female,India,Hyderabad,2023-10-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00428,41,Male,Australia,Melbourne,2023-12-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00429,68,Female,India,Chennai,2023-05-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00430,51,Male,Australia,Sydney,2023-04-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00431,44,Male,United Kingdom,London,2023-11-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00432,50,Female,Canada,Toronto,2023-03-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00433,56,Other,India,Mumbai,2023-09-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00434,51,Male,United Kingdom,Leeds,2023-05-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00435,41,Other,India,Pune,2023-02-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00436,67,Male,India,Bengaluru,2023-07-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00437,70,Male,United States,Chicago,2023-04-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00438,67,Male,Canada,Vancouver,2023-12-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00439,41,Male,India,Mumbai,2023-07-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00440,29,Female,India,Hyderabad,2023-08-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00441,44,Male,Canada,Toronto,2023-12-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00442,58,Female,United States,New York,2023-05-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00443,49,Male,United States,New York,2023-02-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00444,59,Male,United States,New York,2023-10-11,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00445,28,Male,India,Bengaluru,2023-02-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00446,38,Prefer not to say,Australia,Melbourne,2023-03-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00447,64,Female,Australia,Melbourne,2023-04-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00448,56,Male,United Kingdom,Manchester,2023-06-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00449,34,Female,United States,Austin,2023-05-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00450,64,Female,Canada,Vancouver,2023-03-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00451,47,Female,India,Bengaluru,2023-07-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00452,18,Male,India,Pune,2023-09-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00453,66,Female,India,Mumbai,2023-07-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00454,41,Female,India,Mumbai,2023-10-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00455,60,Male,India,Bengaluru,2023-09-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00456,32,Female,United States,New York,2023-04-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00457,43,Prefer not to say,United States,New York,2023-02-05,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00458,38,Female,India,Pune,2023-02-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00459,70,Male,United Kingdom,London,2023-05-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00460,65,Male,India,Chennai,2023-08-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00461,69,Female,India,Pune,2023-04-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00462,18,Male,United States,New York,2023-02-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00463,28,Female,India,Chennai,2023-09-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00464,36,Female,India,Pune,2023-02-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00465,37,Female,India,Mumbai,2023-03-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00466,63,Female,India,Chennai,2023-01-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00467,58,Female,India,Mumbai,2023-02-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00468,61,Female,India,Pune,2023-08-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00469,26,Female,India,Chennai,2023-09-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00470,32,Male,India,Chennai,2023-12-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00471,60,Female,India,Pune,2023-07-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00472,20,Prefer not to say,India,Hyderabad,2023-04-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00473,28,Male,United States,New York,2023-10-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00474,36,Male,India,Chennai,2023-12-30,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00475,23,Female,India,Pune,2023-11-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00476,35,Female,India,Chennai,2023-09-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00477,28,Female,United Kingdom,Leeds,2023-01-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00478,65,Male,Australia,Melbourne,2023-03-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00479,44,Male,United States,Austin,2023-02-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00480,19,Male,India,Bengaluru,2023-07-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00481,32,Female,India,Mumbai,2023-12-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00482,52,Prefer not to say,India,Bengaluru,2023-12-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00483,20,Female,India,Bengaluru,2023-01-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00484,59,Male,India,Pune,2023-07-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00485,29,Female,India,Chennai,2023-05-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00486,22,Female,India,Mumbai,2023-03-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00487,33,Other,Canada,Toronto,2023-05-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00488,31,Male,India,Pune,2023-02-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00489,37,Female,United Kingdom,Leeds,2023-12-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00490,36,Female,India,Pune,2023-11-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00491,50,Female,United States,Austin,2023-10-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00492,54,Male,India,Pune,2023-07-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00493,67,Male,India,Mumbai,2023-12-31,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00494,68,Female,India,Chennai,2023-05-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00495,23,Female,United States,New York,2023-04-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00496,55,Female,United Kingdom,London,2023-03-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00497,66,Male,India,Bengaluru,2023-05-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00498,42,Male,Australia,Melbourne,2023-10-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00499,69,Female,India,Hyderabad,2023-02-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00500,63,Male,Australia,Melbourne,2023-07-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00501,66,Female,Canada,Vancouver,2023-01-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00502,30,Other,India,Bengaluru,2023-04-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00503,40,Female,Australia,Sydney,2023-10-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00504,20,Prefer not to say,India,Pune,2023-11-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00505,60,Prefer not to say,Canada,Toronto,2023-03-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00506,43,Female,Australia,Melbourne,2023-04-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00507,18,Prefer not to say,Canada,Vancouver,2023-01-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00508,22,Male,Canada,Vancouver,2023-06-29,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00509,58,Male,India,Bengaluru,2023-03-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00510,44,Other,India,Mumbai,2023-03-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00511,54,Male,United Kingdom,Leeds,2023-10-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00512,31,Male,United States,New York,2023-06-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00513,60,Male,India,Chennai,2023-02-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00514,50,Female,India,Chennai,2023-07-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00515,50,Female,United Kingdom,Leeds,2023-06-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00516,63,Female,India,Bengaluru,2023-10-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00517,69,Male,India,Bengaluru,2023-04-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00518,40,Male,India,Chennai,2023-11-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00519,61,Female,India,Hyderabad,2023-02-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00520,27,Male,United States,Chicago,2023-02-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00521,35,Female,Canada,Vancouver,2023-03-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00522,21,Female,India,Pune,2023-06-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00523,23,Male,India,Pune,2023-01-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00524,18,Female,United Kingdom,Leeds,2023-10-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00525,58,Male,India,Chennai,2023-07-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00526,24,Female,United Kingdom,Manchester,2023-03-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00527,55,Male,Canada,Toronto,2023-03-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00528,69,Female,United States,Austin,2023-05-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00529,39,Male,United Kingdom,Manchester,2023-06-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00530,68,Female,India,Pune,2023-09-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00531,60,Male,Australia,Melbourne,2023-07-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00532,40,Female,India,Bengaluru,2023-03-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00533,26,Female,United Kingdom,Leeds,2023-11-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00534,65,Male,India,Hyderabad,2023-02-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00535,32,Female,United Kingdom,Leeds,2023-06-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00536,53,Female,United Kingdom,London,2023-01-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00537,42,Male,United Kingdom,London,2023-02-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00538,22,Male,India,Chennai,2023-04-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00539,56,Male,India,Pune,2023-11-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00540,41,Female,India,Pune,2023-05-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00541,63,Male,Australia,Sydney,2023-10-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00542,23,Male,United States,New York,2023-06-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00543,68,Male,India,Hyderabad,2023-01-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00544,55,Female,India,Mumbai,2023-04-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00545,36,Other,United Kingdom,London,2023-03-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00546,20,Male,United States,New York,2023-01-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00547,49,Female,India,Chennai,2023-11-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00548,46,Male,India,Chennai,2023-06-05,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00549,27,Other,United States,Austin,2023-07-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00550,30,Female,United States,Chicago,2023-07-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00551,37,Male,India,Hyderabad,2023-11-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00552,36,Male,United Kingdom,London,2023-05-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00553,47,Male,India,Mumbai,2023-10-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00554,39,Male,India,Chennai,2023-01-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00555,69,Female,India,Pune,2023-03-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00556,58,Female,United States,Chicago,2023-08-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00557,62,Female,United States,Austin,2023-11-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00558,25,Prefer not to say,India,Hyderabad,2023-09-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00559,48,Female,India,Hyderabad,2023-03-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00560,65,Female,Australia,Sydney,2023-11-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00561,37,Female,United Kingdom,Leeds,2023-12-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00562,22,Female,Canada,Toronto,2023-09-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00563,53,Male,India,Bengaluru,2023-05-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00564,36,Male,United Kingdom,Leeds,2023-02-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00565,34,Other,United States,Austin,2023-09-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00566,34,Male,India,Hyderabad,2023-03-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00567,44,Male,United Kingdom,London,2023-04-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00568,36,Female,United States,Chicago,2023-09-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00569,45,Female,United States,Austin,2023-10-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00570,21,Male,India,Mumbai,2023-05-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00571,50,Female,India,Mumbai,2023-02-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00572,56,Female,India,Chennai,2023-01-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00573,29,Male,India,Chennai,2023-12-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00574,56,Male,United States,Chicago,2023-07-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00575,55,Female,India,Chennai,2023-01-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00576,60,Male,India,Mumbai,2023-09-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00577,23,Male,India,Bengaluru,2023-08-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00578,27,Female,Australia,Melbourne,2023-05-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00579,31,Male,Australia,Sydney,2023-05-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00580,62,Male,Canada,Vancouver,2023-11-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00581,44,Male,Australia,Sydney,2023-07-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00582,29,Female,United States,Chicago,2023-05-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00583,40,Female,United Kingdom,London,2023-02-09,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00584,56,Female,India,Pune,2023-01-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00585,50,Prefer not to say,United States,Austin,2023-03-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00586,29,Female,India,Bengaluru,2023-06-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00587,38,Male,India,Pune,2023-02-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00588,60,Female,India,Hyderabad,2023-10-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00589,36,Female,United Kingdom,Leeds,2023-11-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00590,46,Male,India,Bengaluru,2023-02-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00591,70,Male,Australia,Melbourne,2023-11-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00592,46,Male,Australia,Sydney,2023-02-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00593,20,Female,United Kingdom,Leeds,2023-08-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00594,24,Male,United States,Chicago,2023-07-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00595,18,Female,United Kingdom,Leeds,2023-03-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00596,65,Male,India,Hyderabad,2023-03-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00597,49,Male,Australia,Melbourne,2023-12-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00598,54,Female,India,Pune,2023-03-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00599,19,Male,India,Chennai,2023-09-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00600,53,Female,India,Mumbai,2023-01-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00601,29,Female,India,Hyderabad,2023-09-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00602,21,Other,United Kingdom,Leeds,2023-02-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00603,18,Male,Australia,Sydney,2023-07-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00604,33,Male,India,Bengaluru,2023-02-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00605,61,Female,India,Mumbai,2023-10-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00606,23,Male,United Kingdom,London,2023-10-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00607,67,Female,Australia,Melbourne,2023-01-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00608,67,Female,United States,Austin,2023-12-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00609,52,Female,India,Chennai,2023-11-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00610,34,Female,India,Pune,2023-06-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00611,29,Female,India,Mumbai,2023-10-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00612,62,Female,India,Chennai,2023-06-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00613,37,Prefer not to say,United States,Chicago,2023-04-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00614,54,Male,India,Chennai,2023-08-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00615,54,Female,India,Pune,2023-12-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00616,40,Male,India,Mumbai,2023-01-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00617,34,Male,India,Chennai,2023-03-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00618,31,Female,India,Mumbai,2023-12-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00619,44,Male,United States,Chicago,2023-02-16,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00620,21,Male,India,Mumbai,2023-08-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00621,41,Female,India,Chennai,2023-07-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00622,42,Male,India,Hyderabad,2023-06-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00623,43,Prefer not to say,United States,New York,2023-05-05,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00624,70,Female,India,Chennai,2023-05-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00625,47,Male,Canada,Toronto,2023-09-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00626,48,Male,India,Pune,2023-11-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00627,64,Female,India,Chennai,2023-08-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00628,41,Male,India,Chennai,2023-11-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00629,40,Male,United States,Austin,2023-07-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00630,27,Male,United States,Austin,2023-01-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00631,38,Female,India,Mumbai,2023-12-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00632,29,Male,United States,Chicago,2023-02-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00633,37,Male,Canada,Vancouver,2023-05-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00634,19,Male,India,Pune,2023-09-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00635,46,Male,Canada,Toronto,2023-06-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00636,31,Female,India,Hyderabad,2023-01-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00637,21,Female,United States,Austin,2023-06-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00638,54,Female,India,Bengaluru,2023-12-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00639,56,Female,India,Bengaluru,2023-08-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00640,20,Male,India,Chennai,2023-12-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00641,26,Female,India,Mumbai,2023-12-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00642,52,Male,United Kingdom,Manchester,2023-10-05,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00643,70,Male,United States,Chicago,2023-01-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00644,54,Prefer not to say,India,Bengaluru,2023-10-09,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00645,51,Female,United States,New York,2023-02-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00646,55,Other,United Kingdom,Manchester,2023-06-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00647,19,Female,United Kingdom,Leeds,2023-02-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00648,29,Male,India,Pune,2023-07-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00649,53,Male,United Kingdom,Leeds,2023-11-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00650,54,Female,United States,Austin,2023-01-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00651,22,Female,India,Hyderabad,2023-12-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00652,56,Male,United States,New York,2023-09-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00653,60,Male,India,Mumbai,2023-09-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00654,43,Female,India,Chennai,2023-01-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00655,59,Female,United Kingdom,London,2023-04-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00656,37,Female,United Kingdom,Leeds,2023-05-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00657,51,Male,Australia,Sydney,2023-12-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00658,43,Female,United States,Austin,2023-04-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00659,55,Female,United States,Chicago,2023-06-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00660,21,Female,United States,Chicago,2023-10-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00661,33,Female,India,Hyderabad,2023-02-13,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00662,34,Prefer not to say,United Kingdom,London,2023-07-22,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00663,18,Male,India,Bengaluru,2023-07-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00664,45,Male,India,Hyderabad,2023-10-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00665,46,Male,India,Bengaluru,2023-10-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00666,29,Male,India,Mumbai,2023-01-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00667,22,Female,India,Mumbai,2023-01-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00668,27,Other,Canada,Vancouver,2023-05-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00669,60,Male,United States,New York,2023-07-19,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00670,59,Male,Canada,Toronto,2023-02-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00671,39,Male,Canada,Toronto,2023-09-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00672,45,Male,United States,Chicago,2023-12-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00673,44,Female,United Kingdom,London,2023-01-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00674,54,Male,India,Hyderabad,2023-08-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00675,55,Male,India,Pune,2023-10-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00676,43,Male,India,Chennai,2023-11-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00677,31,Male,United States,Austin,2023-06-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00678,23,Male,United Kingdom,Leeds,2023-02-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00679,67,Female,India,Mumbai,2023-12-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00680,69,Male,India,Pune,2023-01-20,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00681,69,Female,Canada,Vancouver,2023-12-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00682,52,Male,India,Mumbai,2023-01-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00683,57,Female,India,Pune,2023-10-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00684,54,Male,India,Mumbai,2023-02-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00685,39,Male,India,Bengaluru,2023-11-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00686,57,Female,India,Pune,2023-09-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00687,43,Female,India,Pune,2023-04-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00688,68,Male,Australia,Sydney,2023-06-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00689,48,Male,Canada,Toronto,2023-04-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00690,18,Prefer not to say,India,Hyderabad,2023-09-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00691,42,Male,India,Bengaluru,2023-01-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00692,36,Female,India,Chennai,2023-08-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00693,43,Prefer not to say,India,Pune,2023-05-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00694,55,Female,Australia,Melbourne,2023-06-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00695,43,Female,India,Pune,2023-11-26,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00696,47,Female,United Kingdom,London,2023-01-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00697,50,Female,India,Pune,2023-06-21,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00698,36,Male,United States,Austin,2023-07-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00699,48,Female,United States,Chicago,2023-06-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00700,28,Female,India,Mumbai,2023-06-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00701,51,Female,United States,Chicago,2023-03-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00702,34,Female,United Kingdom,London,2023-03-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00703,30,Female,United States,Austin,2023-01-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00704,41,Male,United Kingdom,Leeds,2023-07-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00705,19,Female,United States,Austin,2023-05-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00706,45,Male,United Kingdom,London,2023-06-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00707,68,Female,India,Mumbai,2023-11-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00708,30,Female,United Kingdom,London,2023-09-17,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00709,20,Female,United States,New York,2023-12-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00710,54,Male,India,Bengaluru,2023-11-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00711,61,Male,India,Mumbai,2023-05-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00712,59,Female,Canada,Toronto,2023-11-25,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00713,39,Female,Canada,Vancouver,2023-09-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00714,41,Other,India,Chennai,2023-03-14,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00715,21,Female,India,Pune,2023-11-18,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00716,38,Female,United States,Chicago,2023-10-23,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00717,30,Male,Canada,Vancouver,2023-10-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00718,65,Female,Canada,Vancouver,2023-03-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00719,21,Female,India,Chennai,2023-03-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00720,65,Male,India,Chennai,2023-11-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00721,59,Male,Australia,Melbourne,2023-04-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00722,62,Female,India,Pune,2023-08-16,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00723,52,Prefer not to say,United Kingdom,London,2023-05-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00724,41,Male,United Kingdom,Manchester,2023-08-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00725,46,Male,India,Bengaluru,2023-09-01,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00726,30,Male,Canada,Vancouver,2023-12-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00727,26,Other,India,Mumbai,2023-05-31,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00728,53,Male,United States,New York,2023-04-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00729,67,Male,Canada,Vancouver,2023-10-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00730,70,Prefer not to say,United Kingdom,London,2023-04-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00731,44,Male,India,Mumbai,2023-09-09,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00732,39,Female,India,Pune,2023-10-15,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00733,30,Female,United Kingdom,Leeds,2023-09-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00734,50,Female,United States,Austin,2023-11-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00735,55,Female,Canada,Vancouver,2023-12-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00736,41,Female,India,Pune,2023-06-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00737,29,Female,India,Hyderabad,2023-07-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00738,67,Male,United Kingdom,London,2023-10-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00739,26,Male,India,Bengaluru,2023-09-27,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00740,26,Male,India,Pune,2023-05-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00741,46,Prefer not to say,India,Hyderabad,2023-12-04,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00742,57,Female,India,Chennai,2023-01-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00743,66,Female,Australia,Sydney,2023-02-06,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00744,65,Other,India,Chennai,2023-04-06,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00745,19,Female,India,Pune,2023-03-25,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00746,42,Prefer not to say,India,Chennai,2023-03-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00747,29,Male,India,Hyderabad,2023-02-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00748,35,Other,India,Pune,2023-05-01,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00749,18,Male,India,Mumbai,2023-05-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00750,35,Male,India,Bengaluru,2023-11-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00751,67,Male,United Kingdom,London,2023-08-12,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00752,47,Male,India,Chennai,2023-07-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00753,58,Male,India,Hyderabad,2023-11-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00754,25,Male,India,Pune,2023-01-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00755,56,Male,Australia,Sydney,2023-08-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00756,61,Male,Canada,Toronto,2023-03-02,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00757,49,Female,Australia,Melbourne,2023-02-24,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00758,26,Male,India,Mumbai,2023-11-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00759,67,Male,India,Chennai,2023-06-12,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00760,27,Female,India,Chennai,2023-09-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00761,42,Male,India,Mumbai,2023-02-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00762,43,Female,Canada,Vancouver,2023-02-24,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00763,40,Male,India,Bengaluru,2023-07-04,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00764,57,Other,India,Chennai,2023-01-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00765,67,Female,India,Mumbai,2023-06-22,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00766,58,Female,Australia,Sydney,2023-08-07,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00767,19,Female,India,Hyderabad,2023-12-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00768,63,Prefer not to say,United Kingdom,Leeds,2023-12-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00769,66,Male,Australia,Melbourne,2023-08-28,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00770,18,Male,India,Pune,2023-09-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00771,18,Male,United Kingdom,Manchester,2023-06-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00772,28,Prefer not to say,United States,Chicago,2023-06-08,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00773,48,Female,India,Hyderabad,2023-12-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00774,28,Male,United States,New York,2023-06-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00775,60,Female,India,Chennai,2023-05-19,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00776,38,Female,India,Bengaluru,2023-05-03,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00777,53,Prefer not to say,United States,Austin,2023-08-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00778,19,Female,India,Hyderabad,2023-09-03,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00779,30,Female,Canada,Vancouver,2023-03-18,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00780,41,Female,India,Pune,2023-10-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00781,25,Male,India,Pune,2023-08-15,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00782,55,Other,India,Mumbai,2023-10-23,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00783,43,Male,United Kingdom,London,2023-07-30,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00784,67,Male,India,Mumbai,2023-06-07,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00785,52,Other,United Kingdom,Manchester,2023-05-17,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00786,48,Female,India,Mumbai,2023-07-20,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00787,57,Male,United States,Austin,2023-02-27,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00788,63,Male,Canada,Toronto,2023-07-13,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00789,29,Female,India,Hyderabad,2023-02-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00790,54,Male,India,Mumbai,2023-07-10,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00791,31,Female,India,Pune,2023-12-28,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00792,30,Female,India,Chennai,2023-10-21,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00793,44,Female,United Kingdom,London,2023-12-11,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00794,28,Male,Canada,Toronto,2023-08-21,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00795,65,Female,India,Chennai,2023-01-02,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00796,41,Male,India,Hyderabad,2023-09-08,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00797,23,Male,India,Pune,2023-09-26,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00798,47,Female,Australia,Sydney,2023-07-14,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00799,59,Female,United Kingdom,London,2023-04-29,0,1 = no purchase in label window; 0 = at least one purchase,2025-01-01
+C00800,26,Female,United Kingdom,London,2023-11-10,1,1 = no purchase in label window; 0 = at least one purchase,2025-01-01

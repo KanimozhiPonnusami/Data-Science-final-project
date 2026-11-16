@@ -1,0 +1,26 @@
+ProductID,ProductName,Category,UnitPrice
+P1001,Wireless Mouse,Electronics,93.55
+P1002,USB-C Cable,Electronics,54.35
+P1003,Bluetooth Speaker,Electronics,103.46
+P1004,Power Bank,Electronics,84.59
+P1005,Keyboard,Electronics,14.02
+P1006,Water Bottle,Home,117.15
+P1007,Storage Box,Home,92.05
+P1008,Desk Lamp,Home,94.97
+P1009,Cotton Bedsheet,Home,17.99
+P1010,Coffee Mug,Home,55.7
+P1011,T-Shirt,Fashion,46.38
+P1012,Backpack,Fashion,111.43
+P1013,Sneakers,Fashion,78.33
+P1014,Cap,Fashion,99.26
+P1015,Socks,Fashion,54.88
+P1016,Face Wash,Beauty,29.59
+P1017,Moisturizer,Beauty,67.89
+P1018,Shampoo,Beauty,10.47
+P1019,Sunscreen,Beauty,99.83
+P1020,Hand Cream,Beauty,76.9
+P1021,Notebook,Books,91.7
+P1022,Planner,Books,44.48
+P1023,Fiction Book,Books,116.57
+P1024,Cookbook,Books,107.5
+P1025,Pen Set,Books,94.07
